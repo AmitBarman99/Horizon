@@ -8,7 +8,7 @@
 
 body {
   background-color: #0c0c0c;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .preloader{
@@ -177,4 +177,192 @@ body {
   opacity: 0.8;
   box-shadow: 0 2px 6px #0c0c0c;
 }
+
+
+
+/* home and navigation bar section css */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+
+.main-slider{
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.sub-slider{
+  position: relative;
+  height: 380px;
+  top: 50px;
+  right: 20px;
+
+}
+.sub-slider li{
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  border: 2px solid green;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-slider li{
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sub-slider h2, .sub-slider p{ 
+  text-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  line-height: 1.2;
+  margin: 0 auto 25px 16%;
+  color: #ffffff;
+  width: 90%;
+  max-width: 450px;
+}
+
+
+.sub-slider h2 {
+  font-size: 3.0rem;
+}
+.sub-slider p {
+  font-size: 1.2rem;
+  line-height: 1.0;
+}
+.sub-slider .cd-btn {
+  margin: 0% 20%;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0.9em 1.5em;
+  margin-top: .8em;
+  background-color: rgba(212, 68, 87, 0.9);
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+.selected{
+  display: flex;
+}
+.full-width{
+  margin-right: 15em;
+}
+.selected img{
+  width: 43rem;
+  border-radius: 5px;
+}
+.slider-nav{
+  width: 100%;
+  padding: 40px 0px;
+  position: relative;
+}
+.slider-nav ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(148, 52, 17);
+}
+.slider-nav ul li{
+  padding: 26px 40px;
+  border-radius: 10px;
+  border: 3px solid rgb(148, 52, 17);
+  background-color: rgba(255, 255, 255, 0.836);
+  cursor: pointer;
+}
+.slider-nav ul li:hover{
+  background-color: transparent;
+}
+.slider-nav ul li a{
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  text-shadow: 0px 0px 4px white;
+}
+
+.half-width{
+  width: 50%;
+}
+#sec-home,#trd-home,#fth-home,#fifth-home,#six-home{
+  display: none;
+}
+#sec-home a{
+  padding: 12px 80px;
+}
+#trd-home p{
+  margin-top: 30px;
+  margin-bottom: 5px;
+  max-width: 500px;
+  margin-left: 16%;
+}
+.text-container{
+  width: 70%;
+}
+.button-dual{
+  display: flex;
+}
+.button-dual .cd-btn{
+  padding: 0.7rem 3rem;
+  margin: 22px auto;
+}
+#fth-home video{
+  position: absolute;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+#fth-home .full-width{
+  margin-right: 0px;
+  z-index: 10;
+  background: transparent;
+  width: 30rem;
+}
+#fifth-home .full-width{
+  width: 100%;
+  margin-right: 0px;
+}
+#fifth-home h3{
+  color: wheat;
+  position: absolute;
+  left: 50px;
+  top: 25px;
+}
+#fifth-home ul li{
+  color: white;
+  border: none;
+}
+.lists-3{
+  display: flex;
+  margin-top: -80px;
+}
+.lists-3 .lists{
+  margin: auto;
+}
+#six-home{
+  background: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg") no-repeat fixed;
+  background-size: cover;
+  
+}
+
+
+.slider-nav ul li a{
+  text-decoration: none;
+}
+.slider-nav ul{
+  list-style: none;
+}
+#nav-icon{
+  visibility: hidden;
+  display: none;
+}
+#nav-ul{
+  /* height: 80px; */
+  overflow: hidden;
+}
+
 

@@ -75,3 +75,126 @@
       margin: 40vh 23vw;
     }
   }
+
+  /* navigation bar and home section  */
+
+  @media screen and (max-width:1200px){
+    .selected img{
+      width: 30rem;
+    }
+    .sub-slider p{
+      margin-left: 9%;
+    }
+    #fir-home .full-width{
+      margin-right: 6em;
+    }
+    #trd-home p{
+      margin-left: 6%;
+    }
+    #fth-home p{
+      margin-left: 16%;
+    }
+  }
+  @media screen and (max-width:1000px){
+    #fir-home .full-width{
+      margin-right: 1em;
+    }
+    .sub-slider p{
+      margin-left: 6%;
+    }
+    #sec-home a{
+      padding: 12px 40px;
+    }
+  }
+
+  @media  screen and (max-width:950px){
+    .sub-slider{
+      height: 700px;
+    }
+    .selected,#sec-home,.lists-3{
+      flex-direction: column;
+    }
+    #trd-home{
+      flex-direction: column-reverse;
+    }
+    #fir-home .full-width {
+      margin-right: 0em;
+      margin-bottom: 3rem;
+    }
+    .half-width{
+      width: 100%;
+      margin-bottom: 3rem;
+    }
+    .sub-slider p{
+      max-width: 500px;
+      margin: auto;
+    }
+    .slider-nav ul{
+      flex-direction: column;
+      margin: auto;
+      padding-left: 0px;
+    }
+    .slider-nav ul li{
+      width: 100%;
+
+    }
+    .lists-3{
+      position: absolute;
+      top: 100px;
+      display: block;
+      margin-top: 2px;
+    }
+    #nav-icon{
+      display: block;
+      visibility: visible;
+      width: 65px;
+      float: right;
+    }
+    .slider-nav ul{
+      height: 0px;
+      visibility: hidden;
+      overflow: hidden;
+      transition: all 0.6s ease-in-out;
+    }
+  }
+@media screen and (max-width:720px){
+  .sub-slider p{
+    font-size: 15px;
+    width: 400px;
+  }
+  
+}
+@media screen and (max-width:550px){
+  .sub-slider p{
+    margin: auto;
+    width: 320px;
+  }
+  #trd-home .half-width{
+    width: 100%;
+  }
+  .button-dual .cd-btn{
+    padding: 0.7rem 2rem;
+  }
+  
+}
+@media screen and (max-width:455px){
+  .sub-slider p{
+    padding: 5px 50px;
+    width: 340px;
+  }
+  #sec-home a{
+    padding: 12px 12px;
+  }
+  #sec-home h2{
+    margin: 30px auto 12px 0%;
+  }
+  #trd-home p{
+    margin-left: -1%;
+  }
+  #fth-home h2{
+    margin-left: 5%;
+  }
+  .button-dual .cd-btn{
+    padding: 0.7rem 1rem;
+  }
+}
