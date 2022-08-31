@@ -178,8 +178,9 @@ THREE.CanvasRenderer = function ( parameters ) {
 		_canvasHeightHalf = Math.floor( _canvasHeight / 2 );
 
 		if ( updateStyle !== false ) {
-			_canvas.style.width = width + 'px';
-			_canvas.style.height = height + 'px';
+			var CanvasWidth=100,CanvaHeight=100;
+			_canvas.style.width = CanvasWidth + '%';
+			_canvas.style.height = CanvaHeight + 'vh';
 
 		}
 
