@@ -177,12 +177,12 @@ THREE.CanvasRenderer = function ( parameters ) {
 		_canvasWidthHalf = Math.floor( _canvasWidth / 2 );
 		_canvasHeightHalf = Math.floor( _canvasHeight / 2 );
 
-		if ( updateStyle !== false ) {
-			var CanvasWidth=100,CanvaHeight=100;
-			_canvas.style.width = CanvasWidth + '%';
-			_canvas.style.height = CanvaHeight + 'vh';
+		// if ( updateStyle !== false ) {
+		// 	var CanvasWidth=100,CanvaHeight=100;
+		// 	_canvas.style.width = CanvasWidth + '%';
+		// 	_canvas.style.height = CanvaHeight + 'vh';
 
-		}
+		// }
 
 		_clipBox.min.set( - _canvasWidthHalf, - _canvasHeightHalf );
 		_clipBox.max.set(   _canvasWidthHalf,   _canvasHeightHalf );

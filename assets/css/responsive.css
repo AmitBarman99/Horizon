@@ -95,6 +95,13 @@
       margin-left: 16%;
     }
   }
+
+  @media screen and (max-width:1035px){
+    canvas{
+      height: 175vh;
+    }
+  }
+
   @media screen and (max-width:1000px){
     #fir-home .full-width{
       margin-right: 1em;
@@ -164,6 +171,14 @@
   }
   
 }
+
+@media screen and (max-width:695px){
+  canvas{
+    height: 250vh;
+    max-height: 1430px;
+  }
+}
+
 @media screen and (max-width:550px){
   .sub-slider p{
     margin: auto;
