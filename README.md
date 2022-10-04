@@ -13,4 +13,15 @@ You can contact me by mail or [website](https://abhisandhi.netlify.app)
 
 You can also see this project [live](https://amitbarman99.github.io/Horizon/)
 
+
+## 🛡️ License
+
+Horizon is licensed under [MIT license](./LICENSE.md)
+
+### This project needs a 🌟 from you. 
+
+```c
+(🌟)? printf("Thank you"): printf("give it");
+```
+
 ### All the best 
